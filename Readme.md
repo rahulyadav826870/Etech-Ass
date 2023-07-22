@@ -1,4 +1,4 @@
-# Shoping Cart
+# E-commerce App
 
 ## Introduction
 User can see the product and add to the cart
