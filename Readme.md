@@ -3,16 +3,16 @@
 ## Introduction
 User can see the product and add to the cart
 
-## Deplolyed App
+## Deployed App
 https://etech-ass.vercel.app/
 
 
 ## Features
-List out the key features of your application.
+List out the key features of my application.
 
 - Responsiveness
 - Add To Cart
-- Bynamic Page
+- Dynamic Page
 
 
 ## Installation & Getting started
@@ -32,3 +32,5 @@ List and provide a brief overview of the technologies used in the project.
 - React.js
 - Context API
 - Local storage
+- React icon
+- React router
