@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  margin: auto;
+  padding: 25px;
+  background-color: rgb(85, 85, 213);
+  color: white;
+  border-radius: 4px;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  list-style: none;
+}
+ul > a,
+.container > a {
+  text-decoration: none;
+  color: white;
+}
+.cartLength {
+  background: gray;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+@media (max-width: 350px) {
+  ul {
+    font-size: 13px;
+  }
+  .container p {
+    font-size: 13px;
+  }
+}

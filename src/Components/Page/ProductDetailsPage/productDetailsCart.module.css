@@ -1,0 +1,114 @@
+.productDetailCartImg img {
+  width: 100%;
+  height: 100%;
+}
+.productDetailCartImg {
+  width: 500px;
+  height: 415px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.SingleProductWrapper {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  /* column-gap: 20px; */
+  padding: 50px 10px;
+
+  .details {
+    /* border: 2px solid green; */
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: start;
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+      rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    .desc {
+      font-size: 16px;
+      font-weight: 700;
+      color: rgb(109, 100, 100);
+      text-align: justify;
+      text-transform: capitalize;
+    }
+    .addToCartBtn {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
+      color: whitesmoke;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 10px;
+      font-size: 18px;
+    }
+
+    .quantity {
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+    }
+  }
+}
+button {
+  padding: 5px 20px;
+  font-weight: 800;
+}
+p {
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  font-size: 24px;
+  background: #7950f2;
+  color: white;
+  font-weight: 600;
+  padding: 5px 20px;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 750px) {
+  .SingleProductWrapper {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    .details {
+      width: 500px;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .productDetailCartImg {
+    width: 400px;
+    height: 315px;
+  }
+  .SingleProductWrapper {
+    .details {
+      width: 400px;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .productDetailCartImg {
+    width: 300px;
+    height: 215px;
+  }
+  .SingleProductWrapper {
+    .details {
+      width: 300px;
+    }
+  }
+}

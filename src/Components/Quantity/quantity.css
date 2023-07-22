@@ -1,0 +1,23 @@
+.quantityBtn {
+  display: flex;
+  column-gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  .quantity {
+    font-size: 20px;
+  }
+}
+.quantityBtn button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: whitesmoke;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
