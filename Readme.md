@@ -4,7 +4,7 @@
 User can see the product and add to the cart
 
 ## Deplolyed App
-
+https://etech-ass.vercel.app/
 
 
 ## Features
