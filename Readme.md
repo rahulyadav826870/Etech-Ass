@@ -14,15 +14,13 @@ List out the key features of your application.
 - Add To Cart
 - Bynamic Page
 
-## design decisions or assumptions
-List your design desissions & assumptions
 
 ## Installation & Getting started
 Detailed instructions on how to install, configure, and get the project running.
 
 ```bash
 npm install 
-cd E-commerence App
+cd E-commerce  App
 npm run dev
 ```
 
