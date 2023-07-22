@@ -1,7 +1,7 @@
 # E-commerce App
 
 ## Introduction
-User can see the product and add to the cart
+User can see the product and product details of a particular product. and he can also add to the cart page
 
 ## Deployed App
 https://etech-ass.vercel.app/
