@@ -20,7 +20,7 @@ Detailed instructions on how to install, configure, and get the project running.
 
 ```bash
 npm install 
-cd E-commerce  App
+cd Etech-Ass
 npm run dev
 ```
 
